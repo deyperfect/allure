@@ -26,7 +26,7 @@ import axios from "axios";
 // - .env.local when running npm run dev
 // - .env.production when running npm run build / preview
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL
+  baseURL: import.meta.env.VITE_JOB_TRACKER_API
 });
 
 console.log("API BASE URL:", "http://localhost:4000");
